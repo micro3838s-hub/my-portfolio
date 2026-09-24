@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SAYA | PORTFOLIO</title>
+  <meta name="description" content="Web Design, Graphic Design, AI Creativeなどの制作実績を紹介するポートフォリオサイト。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="header">
+    <a href="#" class="logo">SAYA<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#works">WORKS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero">
+
+      <div class="hero-decoration hero-circle"></div>
+      <div class="hero-decoration hero-circle-small"></div>
+
+      <div class="hero-content">
+        <p class="hero-label">WEB / GRAPHIC / AI CREATIVE</p>
+
+        <h1>
+          CREATE<br>
+          IDEAS<br>
+          INTO<br>
+          <span>DESIGN.</span>
+        </h1>
+
+        <p class="hero-copy">
+          アイデアを、<br>
+          伝わるカタチへ。
+        </p>
+      </div>
+
+      <div class="hero-work">
+        <div class="hero-work-image">
+          <div class="placeholder-text">
+            <span>WORK</span>
+            <strong>01</strong>
+          </div>
+        </div>
+
+        <p>SCROLL TO EXPLORE ↓</p>
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section class="section about" id="about">
+
+      <div class="section-heading">
+        <span>＊</span>
+        <h2>ABOUT ME</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-title">
+          <p>DESIGNER</p>
+          <p>CREATOR</p>
+        </div>
+
+        <div class="about-content">
+          <h3>
+            アイデアを考え、<br>
+            伝わるデザインに。
+          </h3>
+
+          <p>
+            Webサイト制作やグラフィックデザイン、
+            AIを活用したクリエイティブ制作などを通して、
+            アイデアを「伝わるカタチ」にすることを
+            大切にしています。
+          </p>
+
+          <div class="about-info">
+            <div>
+              <span>NAME</span>
+              <strong>SAYA</strong>
+            </div>
+
+            <div>
+              <span>FIELD</span>
+              <strong>DESIGN / CREATIVE</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+    <section class="section skills" id="skills">
+
+      <div class="section-heading">
+        <span>＊</span>
+        <h2>SKILLS</h2>
+      </div>
+
+      <div class="skills-list">
+
+        <article class="skill-item">
+          <div class="skill-number">01</div>
+
+          <div class="skill-main">
+            <h3>WEB DESIGN</h3>
+            <p>
+              Webサイトのデザインから
+              コーディングまで。
+            </p>
+          </div>
+
+          <div class="skill-tools">
+            HTML / CSS / JavaScript<br>
+            Responsive Design
+          </div>
+        </article>
+
+
+        <article class="skill-item">
+          <div class="skill-number">02</div>
+
+          <div class="skill-main">
+            <h3>GRAPHIC DESIGN</h3>
+            <p>
+              ビジュアルやレイアウトを考え、
+              魅力的な表現に。
+            </p>
+          </div>
+
+          <div class="skill-tools">
+            Illustrator<br>
+            Photoshop
+          </div>
+        </article>
+
+
+        <article class="skill-item">
+          <div class="skill-number">03</div>
+
+          <div class="skill-main">
+            <h3>AI CREATIVE</h3>
+            <p>
+              AIとの対話からアイデアを広げ、
+              新しい表現をつくる。
+            </p>
+          </div>
+
+          <div class="skill-tools">
+            AI Image Generation<br>
+            AI × Creative
+          </div>
+        </article>
+
+
+        <article class="skill-item">
+          <div class="skill-number">04</div>
+
+          <div class="skill-main">
+            <h3>VIDEO</h3>
+            <p>
+              Web広告などの動画を
+              目的に合わせて構成。
+            </p>
+          </div>
+
+          <div class="skill-tools">
+            Premiere Pro<br>
+            Video Editing
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WORKS
+    ========================== -->
+    <section class="section works" id="works">
+
+      <div class="section-heading works-heading">
+        <div>
+          <span>＊</span>
+          <h2>WORKS</h2>
+        </div>
+
+        <p>
+          Selected works<br>
+          & creative projects
+        </p>
+      </div>
+
+
+      <!-- Filter -->
+      <div class="work-filter">
+        <button class="filter-btn active" data-filter="all">ALL</button>
+        <button class="filter-btn" data-filter="web">WEB</button>
+        <button class="filter-btn" data-filter="graphic">GRAPHIC</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+        <button class="filter-btn" data-filter="video">VIDEO</button>
+      </div>
+
+
+      <!-- Instagram-style gallery -->
+      <div class="works-grid">
+
+        <a href="works/football-hub.html"
+           class="work-card"
+           data-category="web">
+
+          <div class="work-image work-football">
+            <span>FOOTBALL<br>HUB</span>
+          </div>
+
+          <div class="work-overlay">
+            <div>
+              <small>WEB / EC SITE</small>
+              <h3>FOOTBALL HUB</h3>
+            </div>
+            <span class="view-arrow">↗</span>
+          </div>
+
+        </a>
+
+
+        <a href="works/future-cinema.html"
+           class="work-card"
+           data-category="ai">
+
+          <div class="work-image work-cinema">
+            <span>FUTURE<br>CINEMA</span>
+          </div>
+
+          <div class="work-overlay">
+            <div>
+              <small>AI CREATIVE</small>
+              <h3>FUTURE CINEMA</h3>
+            </div>
+            <span class="view-arrow">↗</span>
+          </div>
+
+        </a>
+
+
+        <a href="works/saga-tour.html"
+           class="work-card"
+           data-category="ai">
+
+          <div class="work-image work-saga">
+            <span>VIRTUAL<br>SAGA TOUR</span>
+          </div>
+
+          <div class="work-overlay">
+            <div>
+              <small>AI CREATIVE</small>
+              <h3>SAGA TOUR</h3>
+            </div>
+            <span class="view-arrow">↗</span>
+          </div>
+
+        </a>
+
+
+        <a href="works/ai-character.html"
+           class="work-card"
+           data-category="ai">
+
+          <div class="work-image work-character">
+            <span>AI<br>CHARACTER</span>
+          </div>
+
+          <div class="work-overlay">
+            <div>
+              <small>AI CREATIVE</small>
+              <h3>AI CHARACTER</h3>
+            </div>
+            <span class="view-arrow">↗</span>
+          </div>
+
+        </a>
+
+
+        <a href="works/web-video.html"
+           class="work-card"
+           data-category="video">
+
+          <div class="work-image work-video">
+            <span>WEB<br>VIDEO</span>
+          </div>
+
+          <div class="work-overlay">
+            <div>
+              <small>VIDEO</small>
+              <h3>WEB VIDEO</h3>
+            </div>
+            <span class="view-arrow">↗</span>
+          </div>
+
+        </a>
+
+
+        <a href="works/graphic.html"
+           class="work-card"
+           data-category="graphic">
+
+          <div class="work-image work-graphic">
+            <span>GRAPHIC<br>DESIGN</span>
+          </div>
+
+          <div class="work-overlay">
+            <div>
+              <small>GRAPHIC</small>
+              <h3>GRAPHIC DESIGN</h3>
+            </div>
+            <span class="view-arrow">↗</span>
+          </div>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+    <section class="contact" id="contact">
+
+      <div class="contact-inner">
+
+        <p class="contact-label">＊ CONTACT</p>
+
+        <h2>
+          LET'S CREATE<br>
+          <span>SOMETHING.</span>
+        </h2>
+
+        <p class="contact-text">
+          お仕事・制作についてのお問い合わせは<br>
+          こちらからお願いします。
+        </p>
+
+        <a href="mailto:your-email@example.com" class="contact-button">
+          CONTACT
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="footer">
+    <div class="footer-logo">SAYA<span>.</span></div>
+
+    <p>© 2026 SAYA PORTFOLIO</p>
+
+    <a href="#">BACK TO TOP ↑</a>
+  </footer>
+
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
