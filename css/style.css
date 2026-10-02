@@ -1011,3 +1011,23 @@ button {
   }
 
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-explore {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-explore:hover {
+  opacity: 0.6;
+}
+
+.hero-work {
+  text-align: right;
+}
